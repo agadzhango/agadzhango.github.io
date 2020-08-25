@@ -299,7 +299,7 @@
   flex-flow: column;
   height: 100%;
   width: 315px;
-  background-image: url(../img/Group 27.png);
+  background-image: url(../img/Group\ 27.png);
   overflow-y: auto;
   left: -100%;
   -webkit-transition: 0.8s;

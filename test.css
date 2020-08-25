@@ -1,0 +1,379 @@
+.menu{
+     padding-left: 33px;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 18px;
+    color: #2B2B2B;
+ }
+
+ .bold{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2B2B;
+ }
+ 
+ .phone_number{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2B2B2B;
+ }
+
+ .block1{
+     background-image: url(../test/img/первый\ экран\ картинка.png);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+ }
+
+ p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+ }
+
+ input{
+    width: 217px;
+    height: 51px;
+    background: #FFFFFF;
+    border-style: none;
+    box-shadow: inset 2px 2px 6px rgba(90, 90, 90, 0.65);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #8C8C8C;
+ }
+
+ .button{
+    margin-left: -50px;
+    width: 214px;
+    height: 51px;
+    background: #D51522;
+    box-shadow: 0px 2px 8px rgba(65, 65, 65, 0.25);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+
+ h2{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 39px;
+    color: #2B2B2B;
+ }
+
+ .slider {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    margin: 50px auto;
+    background-image: url(../test/img/Group\ 26.png);
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  
+  .slider input[name="switch"] {
+    display: none;
+  }
+  
+  .switch {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .switch label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    
+    background-color:  #CACACA;
+  }
+  
+  #btn1:checked~.switch label[for="btn1"] {
+    background-color:#D51522;
+  }
+  
+  #btn2:checked~.switch label[for="btn2"] {
+    background-color:#D51522;
+  }
+  
+  #btn3:checked~.switch label[for="btn3"] {
+    background-color:#D51522;
+  }
+  
+  .slider-inner {
+    overflow: hidden;
+  }
+  
+  .slides {
+    width: 300%;
+    transition: all 0.5s;
+  }
+  
+  
+  
+  
+  #btn1:checked~.slider-inner .slides {
+    transform: translate(0);
+  }
+  
+  #btn2:checked~.slider-inner .slides {
+    transform: translate(-680px);
+  }
+  
+  #btn3:checked~.slider-inner .slides {
+    transform: translate(-1360px);
+  }
+
+
+  .slide1{
+    width: 349px;
+    height: 243px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    float:left;
+    margin-left: 9px;
+    margin-right: 16px;
+    margin-top: 8px;
+  }
+
+  .data{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #636363;
+    margin-left:27px;
+    margin-top: 34px;
+  }
+
+  .text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B2B2B;
+    margin-left: 27px;
+    margin-top: 11px;
+  }
+
+  .news_button{
+    width: 156px;
+    height: 44px;
+    border: 1px solid #D51522;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #D51522;
+    margin-top: 56px;
+    margin-left: 27px;
+  }
+
+ .footer{
+     background-color: #211F2B;
+ }
+
+ .menu2{
+    padding-left: 33px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+ 
+.burger-menu{
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 72px;
+  position: fixed;
+  z-index: 1000;
+  display: none;
+}
+
+
+.burger-menu_button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 30;
+  width: 5px;
+  height: 20px;
+  color: #D51522;
+  background-color: transparent;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.burger-menu_button:hover .burger-menu_lines {
+  color: #D51522;
+}
+
+.burger-menu_button:hover {
+  background-color: transparent;
+}
+ 
+.burger-menu_lines::before,
+.burger-menu_lines::after,
+.burger-menu_lines {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #D51522;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  left: 1px;
+}
+.burger-menu_lines {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.burger-menu_lines::before {
+  content: '';
+  top: -12px;
+   
+}
+.burger-menu_lines::after {
+  content: '';
+  top: 12px;
+   
+}
+
+
+.burger-menu_active .burger-menu_lines {
+  background-color: transparent;
+}
+.burger-menu_active .burger-menu_lines::before {
+  top: 0;
+  transform: rotate(45deg);
+  background-color:#D51522;
+}
+.burger-menu_active .burger-menu_lines::after{
+  top: 0;
+  transform: rotate(-45deg);
+  background-color:#D51522;
+}
+
+.burger-menu_nav {
+  padding-top: 120px;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 315px;
+  background-image: url(../Test/img/Group\ 27.png);
+  overflow-y: auto;
+  left: -100%;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+.burger-menu_active .burger-menu_nav {
+  top: -10px;
+  left: -16px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.burger-menu_link {
+  padding-top: 10px;
+ text-align: left;
+}
+.burger-menu_link:first-child {
+  
+}
+.burger-menu_link:hover {
+  color: rgba(235, 8, 8, 1) ;
+}
+.burger-menu_overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+.burger-menu_active .burger-menu_overlay {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2B2B2B;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+.phone_number2{
+  font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: #FFFFFF;
+padding-left: 25px;
+padding-top: 36px;
+}
+
+.phone_number3{
+  font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+padding-left: 25px;
+padding-top: 15px;
+}
+
+
+@media only screen and (max-width: 500px){
+  .navbar{
+    display: none;
+  }
+  .burger-menu{
+    display: block;
+  }
+}

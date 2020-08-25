@@ -24,7 +24,7 @@
  }
 
  .block1{
-     background-image: url(img/первый\ экран\ картинка.png);
+     background-image: url(../img/первый\ экран\ картинка.png);
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
